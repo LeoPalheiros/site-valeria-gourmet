@@ -1,7 +1,13 @@
-import Home from "./pages/Home"
+import WhatsAppButton from "./components/WhatsAppButton";
+import Home from "./pages/Home";
 
 function App() {
-    return <Home />
+    return (
+        <>
+        <Home />
+        <WhatsAppButton />
+        </>
+    );
 }
 
-export default App
+export default App;
